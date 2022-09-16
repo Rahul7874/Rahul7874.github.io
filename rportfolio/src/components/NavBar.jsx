@@ -26,6 +26,7 @@ const NavBar = () => {
       id: 5,
       link: "contact",
     },
+    
   ];
 
   return (
@@ -41,7 +42,7 @@ const NavBar = () => {
             key={id}
             className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-white duration-200 link-underline"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={400}>
               {link}
             </Link>
           </li>

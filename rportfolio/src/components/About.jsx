@@ -12,18 +12,19 @@ const About = () => {
             About
           </p>
         </div>
-
         <p className="text-xl mt-5">
-        I am a web developer, working in both, backend and frontend programming. Excited for improving my skills and learning new technologies. I'm open to learn and work with any web technology and currently doing freelance gigs.
+          Hello! My name is Rahul Pawar and i am a web developerworking in both, backend and frontend programming. Excited for improving my skills and learning new technologies.<br /> <br />
+          I'm a passionate Developer, with strong administrative and communication skills good attention to detail and the ability to write efficient code using MERN Stack.
         </p>
 
         <br />
 
         <p className="text-xl">
-        I like to code matters from scratch and love the idea of bringing thoughts to life. Connect with me to get your project done. <br /> <br />
+        I like to code matters from scratch and love the idea of bringing thoughts to life. <br /> <br />
         I value minimalistic designs, thoughtful branding of the content, and customer relatable experience. Let’s discover together how we can make your project convert better!<br /> <br />
-        I enjoy creating or redesigning a distinct identity for a product or service, get more traffic from search engine and social platforms.
+        As i grow and flourish as a Developer one thing which keeps me going is my inquisitiveness for discovering new things every day.
         </p>
+        
       </div>
     </div>
   );

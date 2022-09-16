@@ -10,6 +10,7 @@ import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
 import redux from "../assets/redux.png"
 import postman from "../assets/postman.png"
+import mongoose from "../assets/mongoose.png"
 const Experience = () => {
   const techs = [
     {
@@ -48,24 +49,14 @@ const Experience = () => {
       title: "Next JS",
       style: "shadow-white",
     },
-    // {
-    //   id: 7,
-    //   src: graphql,
-    //   title: "GraphQL",
-    //   style: "shadow-pink-400",
-    // },
+    
     {
       id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
-    // {
-    //   id: 9,
-    //   src: tailwind,
-    //   title: "Tailwind",
-    //   style: "shadow-sky-400",
-    // },
+    
     {
       id: 10,
       src: express,
@@ -90,6 +81,12 @@ const Experience = () => {
       title: "Postman",
       style: "shadow-orange-500",
     },
+    {
+      id: 14,
+      src: mongoose,
+      title: "Mongoose",
+      style: "shadow-red-500",
+    },
   ];
 
   return (
@@ -100,7 +97,7 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            Skills
           </p>
           <p className="py-6">These are the technologies I've worked with and used them in my projects.</p>
         </div>

@@ -1,5 +1,4 @@
 import React from "react";
-
 //function for form reset
 function handleSubmit(e){
   setTimeout(() => {
@@ -20,7 +19,7 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        
+       
         <div className=" flex justify-center items-center">
           <form
             onSubmit={handleSubmit}
@@ -29,6 +28,7 @@ const Contact = () => {
             action="https://getform.io/f/a5bbeab4-3505-457e-bcda-603c8bc15711"
             className=" flex flex-col w-full md:w-1/2"
           >
+            
             <input
               type="text"
               name="name"
