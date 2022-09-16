@@ -1,15 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.1af4bd42.css",
-    "main.js": "/static/js/main.8a5b9255.js",
-    "static/media/apod.jpg": "/static/media/apod.5837a97979bfd98485a6.jpg",
-    "static/media/iptracker.jpg": "/static/media/iptracker.6ab6589069ce320ad5eb.jpg",
-    "static/media/nftportal.jpg": "/static/media/nftportal.85c74c9d58db965c3c2e.jpg",
-    "static/media/waveportal.jpg": "/static/media/waveportal.665fff08903b077c1e50.jpg",
-    "static/media/api.jpg": "/static/media/api.c1dd98a7d4ec1d150dae.jpg",
+    "main.css": "/static/css/main.0dce001f.css",
+    "main.js": "/static/js/main.d1fdc784.js",
+    "static/media/bewkoof.png": "/static/media/bewkoof.9e857382d03b6e27fef4.png",
+    "static/media/jio.png": "/static/media/jio.070a634d5a8c67f2cc5e.png",
+    "static/media/insta.png": "/static/media/insta.e01e456877758879acb6.png",
     "static/media/Rahul-Pawar-Resume.pdf": "/static/media/Rahul-Pawar-Resume.95bb373571cbf809635c.pdf",
     "static/media/postman.png": "/static/media/postman.91690925a2050c5fa76c.png",
-    "static/media/webpostman.jpg": "/static/media/webpostman.4689118f2fcc4d7a6fc5.jpg",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/nextjs.png": "/static/media/nextjs.48ddc8121a0fcb543d64.png",
@@ -19,11 +16,11 @@
     "static/media/express.png": "/static/media/express.1182731d0fa4994589eb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.1af4bd42.css.map": "/static/css/main.1af4bd42.css.map",
-    "main.8a5b9255.js.map": "/static/js/main.8a5b9255.js.map"
+    "main.0dce001f.css.map": "/static/css/main.0dce001f.css.map",
+    "main.d1fdc784.js.map": "/static/js/main.d1fdc784.js.map"
   },
   "entrypoints": [
-    "static/css/main.1af4bd42.css",
-    "static/js/main.8a5b9255.js"
+    "static/css/main.0dce001f.css",
+    "static/js/main.d1fdc784.js"
   ]
 }
