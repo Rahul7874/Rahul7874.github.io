@@ -3,14 +3,14 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import github from "../assets/github.png";
-import node from "../assets/node.png";
-import express from "../assets/express.png"
-import mongodb from "../assets/mongodb.png"
+import nextjs from "../assets/tailwind.png";
+import github from "../assets/git.png";
+// import node from "../assets/node.png";
+// import express from "../assets/ExpressJS.png"
+// import mongodb from "../assets/mongodb.png"
 import redux from "../assets/redux.png"
-import postman from "../assets/postman.png"
-import mongoose from "../assets/mongoose.png"
+// import postman from "../assets/postman.png"
+// import mongoose from "../assets/mongoose.png"
 const Experience = () => {
   const techs = [
     {
@@ -38,36 +38,17 @@ const Experience = () => {
       style: "shadow-blue-600",
     },
     {
-      id: 5,
-      src: node,
-      title: "NodeJs",
-      style: "shadow-green-400",
-    },
-    {
       id: 6,
       src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      title: "Tailwind",
+      style: "shadow-cyan-400",
     },
     
     {
       id: 8,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    
-    {
-      id: 10,
-      src: express,
-      title: "Express",
-      style: "shadow-white",
-    },
-    {
-      id: 11,
-      src: mongodb,
-      title: "MongoDB",
-      style: "shadow-green-500",
+      style: "shadow-orange-200",
     },
     {
       id: 12,
@@ -75,38 +56,30 @@ const Experience = () => {
       title: "Redux",
       style: "shadow-purple-500",
     },
-    {
-      id: 13,
-      src: postman,
-      title: "Postman",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 14,
-      src: mongoose,
-      title: "Mongoose",
-      style: "shadow-red-500",
-    },
+    
   ];
 
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen experience"
+      className="bg-slate-100	 w-full h-screen experience"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl text-blue-600 font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
+          </p>
+          <p className="text-4xl text-blue-600 font-bold border-b-4 border-gray-500 p-2 inline">
+            Frontend
           </p>
           <p className="py-6">These are the technologies I've worked with and used them in my projects.</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`bg-white shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>

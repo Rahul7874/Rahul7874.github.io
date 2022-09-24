@@ -13,12 +13,12 @@
 }
 
 #root {
-  background: linear-gradient(black 25%, rgb(31, 41, 54) 58%, black 15%);
+  background: #f1f5f9;
   min-height: 100vh;
 }
 
 body {
-  background: rgb(31, 41, 55);
+  background: rgb(31, 41, 55); 
 }
 
 .nav {
@@ -36,7 +36,7 @@ body {
 }
 
 .link-underline-black {
-  /* background-image: linear-gradient(transparent, transparent), linear-gradient(#F2C, rgb(60, 34, 255)) */
+  /*background-image: linear-gradient(transparent, transparent), linear-gradient(#F2C, rgb(60, 34, 255)) */
   background-image: linear-gradient(transparent, transparent),
     linear-gradient(#000, #fff);
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .experience {
-  margin-top: 12%;
+  margin-top: 0%;
 }
 
 
@@ -65,7 +65,7 @@ body {
 @media screen and (max-width: 900px) {
 
   #root {
-    background: linear-gradient(rgb(31, 41, 55) 20%, black 20%, rgb(31, 41, 55) 65%, black 25%);
+    /* background: linear-gradient(rgb(31, 41, 55) 20%, black 20%, rgb(31, 41, 55) 65%, black 25%); */
     min-height: 100vh;
   }
 
@@ -73,10 +73,13 @@ body {
   .contact,
   .portfolio,
   .experience,
+  .GitHubcle,
   .home {
     text-align: center;
     height: 100%;
+    
   }
+  
 
   .about,
   .portfolio,

@@ -6,6 +6,9 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer"
+import GitHubcle from "./components/Githubcal";
+import Stats from "./components/Stats";
+import GitHub from "./components/Githubcalender";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      <GitHubcle/>
+      <Stats/>
+      <GitHub/>
       <Contact />
       <Footer />
       <SocialLinks />
