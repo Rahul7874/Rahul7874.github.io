@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {FiPhoneCall} from "react-icons/fi"
 import { HiOutlineMail } from "react-icons/hi";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 // import resume from "../assets/Rahul-Pawar-Resume.pdf"
@@ -63,9 +64,17 @@ function Footer(){
           </div>
         ))}
       </div>
-      <p className="mt-2">
-        8160244752
+      <div className="flex items-center justify-center gap-4 mt-5">
+      <p className="">
+      <FiPhoneCall size="30"/>
+        
       </p>
+      <p>8160244752</p>
+      </div>
+      <div className="flex items-center justify-center mt-5 gap-5">
+          <p><HiOutlineMail size={30}/></p>
+          <p className="oldstyle-nums">rp158835@gmail.com</p>
+          </div>
         </div>
     
     )

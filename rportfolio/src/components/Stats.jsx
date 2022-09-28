@@ -4,7 +4,7 @@ const Stats = ()=>{
     return(
         <div
         name="contact"
-        className="contact w-full h-full	 bg-slate-200 to-gray-800 p-4 text-black"
+        className="contact w-full h-full bg-slate-200 to-gray-800 p-4 text-black"
       >
          <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
             <div>
@@ -13,8 +13,8 @@ const Stats = ()=>{
               </p>
              
             </div>
-                <div className="grid sm:grid-cols-2 md:grid-cols-4  gap-8 mt-20 text-center	 px-12 sm:px-0 ">
-                    <div className="bg-white h-32 rounded-full text-blue-600 font-bold border-4 border-blue-600">
+                <div className="grid sm:grid-cols-2 md:grid-cols-4  gap-8 mt-10 text-center	 px-12 sm:px-0 ">
+                    <div className="bg-white h-32 rounded-full text-blue-600 font-bold border-4 border-blue-600 ">
                         <p className="mt-5">Total</p>
                         <p>Contributions</p>
                         <p>134+</p>
