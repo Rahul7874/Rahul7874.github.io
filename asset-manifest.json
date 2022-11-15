@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6540868.css",
-    "main.js": "/static/js/main.401b557f.js",
+    "main.css": "/static/css/main.0468324b.css",
+    "main.js": "/static/js/main.d5ffbbaa.js",
     "static/media/bewkoof.png": "/static/media/bewkoof.9e857382d03b6e27fef4.png",
     "static/media/jio.png": "/static/media/jio.070a634d5a8c67f2cc5e.png",
+    "static/media/lifehome.png": "/static/media/lifehome.7a39ac2db5ecc7c14a9d.png",
     "static/media/insta.png": "/static/media/insta.e01e456877758879acb6.png",
+    "static/media/homePage.png": "/static/media/homePage.c6b80102b7d3960d3be1.png",
     "static/media/Rahul-Pawar-Resume.pdf": "/static/media/Rahul-Pawar-Resume.95bb373571cbf809635c.pdf",
     "static/media/postman.png": "/static/media/postman.91690925a2050c5fa76c.png",
     "static/media/ExpressJS.png": "/static/media/ExpressJS.058639fa73ccba6be52d.png",
@@ -16,11 +18,11 @@
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.d6540868.css.map": "/static/css/main.d6540868.css.map",
-    "main.401b557f.js.map": "/static/js/main.401b557f.js.map"
+    "main.0468324b.css.map": "/static/css/main.0468324b.css.map",
+    "main.d5ffbbaa.js.map": "/static/js/main.d5ffbbaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6540868.css",
-    "static/js/main.401b557f.js"
+    "static/css/main.0468324b.css",
+    "static/js/main.d5ffbbaa.js"
   ]
 }
